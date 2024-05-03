@@ -1,0 +1,99 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card{
+  border-radius: 5px 5px 5px 55px;
+  background-size: 737px;
+  background-position: center;
+  width: 370px;
+  margin: 15px;
+}
+
+.card1{
+  height: 399px;
+  background-image: url(./images/card1.jpeg);
+  background-color: #00163d80;
+}
+
+.card2{
+  height: 299px;
+  background-image: url(./images/card2.jpeg);
+  order: 4;
+}
+
+.card3{
+  height: 299px;
+  background-image: url(./images/card3.jpeg);
+}
+
+.card4{
+  height: 399px;
+  background-image: url(./images/card4.jpeg);
+  order: 5;
+  position: relative;
+  top: -100px;
+}
+
+.card5{
+  height: 399px;
+  background-image: url(./images/card5.jpeg);
+}
+
+.card6{
+  height: 299px;
+  background-image: url(./images/card6.jpeg);
+  order: 6;
+}
+
+.tag{
+background-color: #F0A55A;
+color: white;
+border-radius: 3.5px;
+padding: 4px;
+}
+
+.content-title{
+  color: white;
+}
+
+.duration-time{
+  display: inline;
+  padding: 10px;
+  color: white;
+}
+
+.level-info{
+  display: inline;
+  padding: 10px;
+  color: white;
+}
+
+.big{
+  display: flex;
+  flex-direction: column;
+  margin-top: 210px;
+  padding: 20px;
+}
+
+.small{
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  padding: 20px;
+}
+
+
